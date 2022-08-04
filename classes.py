@@ -72,26 +72,26 @@ class Television:
             else:
                 self.__volume -= 1
 
-        def get_channel(self) -> int:
-            """
-            Method to get channel value
-            :return: Channel (int)
-            """
-            return self.__channel
+    def get_channel(self) -> int:
+        """
+        Method to get channel value
+        :return: Channel (int)
+        """
+        return self.__channel
 
-        def get_volume(self) -> int:
-            """
-            Method to get volume value
-            :return: Volume (int)
-            """
-            return self.__volume
+    def get_volume(self) -> int:
+        """
+        Method to get volume value
+        :return: Volume (int)
+        """
+        return self.__volume
 
-        def get_status(self) -> bool:
-            """
-            Method to get status
-            :return: Status (bool)
-            """
-            return self.__status
+    def get_status(self) -> bool:
+        """
+        Method to get status
+        :return: Status (bool)
+        """
+        return self.__status
 
     def __str__(self) -> str:
         """
